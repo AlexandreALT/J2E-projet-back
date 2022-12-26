@@ -20,7 +20,7 @@ import com.univlittoral.projet.mapper.LivreMapper;
 import com.univlittoral.projet.service.LivreService;
 
 @RestController
-@RequestMapping(value = "/rest/bd/livres")
+@RequestMapping(value = "/rest/bd/livres/")
 public class LivreController {
 	@Autowired
 	private LivreService service;

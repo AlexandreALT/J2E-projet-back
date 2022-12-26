@@ -42,7 +42,7 @@ public class HomeController {
 		return home;
 	}
 	
-	@GetMapping(value="/auteurs")
+	@GetMapping(value="/auteurs/")
 	public List<AuteurDTO> findAuteurs(){
 		List<AuteurDTO> auteurs = AuteurMapper.map(serviceAuteur.findAuteurs());
 		
